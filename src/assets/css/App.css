@@ -231,6 +231,7 @@ font-weight: bold;
 .backImage-wrapper{
   height: 100vh;
 }
+
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   
@@ -274,6 +275,20 @@ font-weight: bold;
   .para-text-wrapper p{
   font-size: 15px;
   
+  }
+  .btn-download-common{
+    padding: 8px 10px;
+    background-color: #000000ba;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    margin-top: 5px;
+  
+   
+  }
+  .btn-download-common:hover{
+    background-color: #00000081;
   }
   .mobile-image-wrapper{
     padding: 60px 0px;
