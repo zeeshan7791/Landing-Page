@@ -1,0 +1,585 @@
+:root {
+  --yellow: #f2b619;
+  --white: #ffffff;
+  --primary: #04a5c2;
+  --color-lightgrey: #f9f9f9;
+}
+
+.wd-styl {
+  width: 170px;
+}
+
+.imgcard-styl {
+  width: 150px;
+  height: 150px;
+}
+.imgwidth {
+  width: 130px;
+}
+.text-color {
+  color: var(--primary);
+}
+
+@media screen and (max-width: 767px) {
+  .mtmob {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .mtmob {
+    /* margin-top: 100px; */
+  }
+}
+
+.backImage-wrapper{
+  height: 100vh;
+background-image: url("https://img.freepik.com/free-vector/diagonal-motion-lines-white-background_1017-33198.jpg?w=1060&t=st=1662462363~exp=1662462963~hmac=85732de7086cd5a3e410e0e9e3b303eb56c921e50115591a3e9a413817aa9a84");
+background-position: center;
+background-size: cover;
+}
+
+.logo-wrapper p {
+  margin: 20px 0px 0px 60px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.navBar{
+  /* border: 2px solid black; */
+}
+.navBar ul{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navBar ul li a{
+text-decoration: none;
+padding: 0px 10px;
+font-weight: bold;
+
+}
+.text-wrapper{
+  width: 40%;
+  margin: auto;
+  /* margin-top: 50px; */
+  /* border: 2px solid green; */
+}
+.text-wrapper h1{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.text-wrapper p{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+ 
+}
+.button-wrapper{
+display: flex;
+justify-content: center;
+}
+.btn-header-download{
+  padding: 8px 10px;
+  background-color: #00A693;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+.btn-header-download:hover{
+  background-color: #01796C;
+}
+
+/* Grid 2 hero section image */
+
+.hero-image-wrapper{
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+  margin-top: 20px;
+}
+.hero-image-wrapper img{
+width: 100%;
+height: 80vh;
+}
+
+/* Grid 3 text and button */
+
+.grid-3-wrapper{
+  background-color: #FBF9CC;
+  width: 100%;
+  margin-top: 30px;
+  padding: 80px;
+
+}
+.grid-3-wrapper p{
+text-align: center;
+font-size: 32px;
+font-weight: bold;
+}
+.btn-download-2{
+  position: relative;
+  left: 86%;
+}
+
+/* Black download Button */
+.btn-download-common{
+  padding: 8px 10px;
+  background-color: #000000ba;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 25px;
+  margin-top: 5px;
+  z-index: 5;
+ 
+}
+.btn-download-common:hover{
+  background-color: #00000081;
+}
+ 
+
+/* Mobile Image Grid-4 with text on right  */
+
+.mobile-grid-4{
+  background-color: #E0F2F0;
+}
+.grid-4-text-wrapper{
+  display: flex;
+  align-items: center;
+}
+/* Common properteries  */
+.heading-text-wrapper h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+.para-text-wrapper p{
+font-size: 18px;
+  font-weight: bold;
+}
+.mobile-image-wrapper{
+  padding: 80px 0px;
+  position: relative;
+  left: 30%;
+}
+.mobile-image-wrapper img{
+  width: 300px;
+  height: 500px;
+}
+
+
+/* Mobile Image Grid-5 with text on left  */
+.mobile-grid-5{
+  background-color: #FFECEF;
+}
+
+.grid-5-text-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+
+}
+.mobile-2-image-wrapper{
+padding: 80px 0px;
+}
+.mobile-2-image-wrapper img{
+  width: 300px;
+  height: 500px;
+}
+      /* Mobile Image Grid-6 with text on left */
+
+.mobile-grid-6{
+  background-color: #FBF9CC;
+}
+.grid-6-text-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+/* Footer  Grid -7*/
+.grid-7-text-wrapper{
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  /* border: 2px solid green; */
+}
+.grid-7-text-wrapper h1{
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer ul li a{
+text-decoration: none;
+padding: 0px 10px;
+font-weight: bold;
+
+}
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+  
+.backImage-wrapper{
+  height: 100vh;
+}
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  
+  .backImage-wrapper{
+    height: 100vh;
+  }
+  .text-wrapper h1{
+    font-size: 50px;
+  }
+  .text-wrapper p{
+    font-size: 18px;
+  }
+
+  }
+  @media screen and (min-width: 900px) and (max-width: 1024px) {
+     
+  .backImage-wrapper{
+    height: 100vh;
+  }
+  .text-wrapper h1{
+    font-size: 40px;
+  }
+  .text-wrapper p{
+    font-size: 18px;
+  }
+  .grid-3-wrapper{
+    padding: 60px;
+  
+  }
+  .grid-3-wrapper p{
+  text-align: left;
+  font-size: 28px;
+  }
+  .btn-download-2{
+    left: 0%;
+  }
+  .heading-text-wrapper h1{
+    font-size: 35px;
+   
+  }
+  .para-text-wrapper p{
+  font-size: 15px;
+  
+  }
+  .mobile-image-wrapper{
+    padding: 60px 0px;
+    position: relative;
+    left: 20%;
+  }
+  .mobile-image-wrapper img{
+    width: 300px;
+    height: 450px;
+  }
+  .mobile-2-image-wrapper{
+    padding: 60px 0px;
+    }
+    .mobile-2-image-wrapper img{
+      width: 300px;
+      height: 450px;
+    }
+    
+/* Footer  Grid -7*/
+
+.grid-7-text-wrapper h1{
+  font-size: 55px;
+  font-weight: bold;
+  text-align: center;
+}
+
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+     
+  .backImage-wrapper{
+    height: 100vh;
+  }
+  .text-wrapper h1{
+    font-size: 30px;
+  }
+  .text-wrapper p{
+    font-size: 15px;
+  }
+  .grid-3-wrapper{
+    padding: 60px;
+  
+  }
+  .grid-3-wrapper p{
+  text-align: left;
+  font-size: 28px;
+  }
+  .btn-download-2{
+    left: 0%;
+  }
+  .mobile-sub-grid{
+    order: 2;
+  }
+  
+  .heading-text-wrapper h1{
+    font-size: 35px;
+    margin: 30px 0px 0px 30px;
+   
+  }
+  .para-text-wrapper p{
+  font-size: 15px;
+  margin: 0px 0px 0px 30px;
+  
+  
+  }
+  /* hiding button */
+  .hide-button{
+    display: none;
+  }
+  br{
+    display: none;
+  }
+  .mobile-image-wrapper{
+    padding: 60px 0px;
+    position: relative;
+    left: 20%;
+  }
+  .mobile-image-wrapper img{
+    width: 400px;
+    height: 550px;
+  }
+  .grid-5-text-wrapper{
+    justify-content: start;
+    /* border: 2px solid red; */
+  
+  }
+  
+  .mobile-2-image-wrapper{
+    padding: 60px 0px;
+    position: relative;
+    left: 20%;
+    }
+    .mobile-2-image-wrapper img{
+      width: 400px;
+      height: 550px;
+      
+    }
+    
+/* Footer  Grid -7*/
+
+.grid-7-text-wrapper h1{
+  font-size: 55px;
+  font-weight: bold;
+  text-align: center;
+}
+
+}
+@media screen and (min-width: 481px) and (max-width: 599px) {
+  .backImage-wrapper{
+    height: 90vh;
+  }
+  .text-wrapper{
+    width: 80%;
+  }
+  .text-wrapper h1{
+    font-size: 28px;
+  }
+  .text-wrapper p{
+    font-size: 13px;
+  }
+  .btn-header-download{
+    padding: 6px 8px;
+   font-size: 12px;
+
+  }
+  .btn-download-common{
+    padding: 6px 8px;
+   font-size: 12px;
+  }
+  .grid-3-wrapper{
+    padding: 50px;
+  
+  }
+  .grid-3-wrapper p{
+  text-align: left;
+  font-size: 24px;
+  }
+  .btn-download-2{
+    left: 0%;
+  }
+  .mobile-sub-grid{
+    order: 2;
+  }
+  
+  .heading-text-wrapper h1{
+    font-size: 35px;
+    margin: 30px 0px 0px 30px;
+   
+  }
+  .para-text-wrapper p{
+  font-size: 15px;
+  margin: 0px 0px 0px 30px;
+  
+  
+  }
+  /* hiding button */
+  .hide-button{
+    display: none;
+  }
+  br{
+    display: none;
+  }
+  .mobile-image-wrapper{
+    padding: 60px 0px;
+    position: relative;
+    left: 20%;
+  }
+  .mobile-image-wrapper img{
+    width: 400px;
+    height: 550px;
+  }
+  .grid-5-text-wrapper{
+    justify-content: start;
+    /* border: 2px solid red; */
+  
+  }
+  
+  .mobile-2-image-wrapper{
+    padding: 60px 0px;
+    position: relative;
+    left: 20%;
+    }
+    .mobile-2-image-wrapper img{
+      width: 400px;
+      height: 550px;
+      
+    }
+    
+/* Footer  Grid -7*/
+
+.grid-7-text-wrapper h1{
+  font-size: 50px;
+
+}
+
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .backImage-wrapper{
+    height: 70vh;
+  }
+  .logo-wrapper p {
+    margin: 16px 0px 0px 16px;
+    font-size: 20px;
+  }
+  .text-wrapper{
+    width: 80%;
+  }
+  .text-wrapper h1{
+    font-size: 20px;
+  }
+  .text-wrapper p{
+    font-size: 12px;
+  }
+  .btn-header-download{
+    padding: 6px 8px;
+   font-size: 12px;
+
+  }
+  .btn-download-common{
+    padding: 6px 8px;
+   font-size: 12px;
+  }
+  
+  .grid-3-wrapper{
+    padding: 50px;
+  
+  }
+  .grid-3-wrapper p{
+  text-align: left;
+  font-size: 20px;
+  }
+  .btn-download-2{
+    left: 0%;
+  }
+  .mobile-sub-grid{
+    order: 2;
+  }
+  
+  .heading-text-wrapper h1{
+    font-size: 28px;
+    margin: 30px 0px 0px 30px;
+    text-align: center;
+   
+  }
+  br{
+    display: none;
+  }
+  .para-text-wrapper p{
+  font-size: 13px;
+  text-align: center;
+  margin: 0px 0px 0px 30px;
+  padding-right: 25px;
+  
+  }
+ 
+  .mobile-image-wrapper{
+    padding: 20px 0px;
+    position: relative;
+    left: 20%;
+  }
+  .mobile-image-wrapper img{
+    width: 200px;
+    height: 300px;
+  }
+  .grid-5-text-wrapper{
+    justify-content: start;
+    /* border: 2px solid red; */
+  
+  }
+  
+  .mobile-2-image-wrapper{
+    padding: 20px 0px;
+    position: relative;
+    left: 20%;
+    }
+    .mobile-2-image-wrapper img{
+      width: 200px;
+      height: 300px;
+      
+    }
+    /* Hiding download button */
+    .hide-button{
+      display: none;
+    }
+/* Footer  Grid -7*/
+
+.grid-7-text-wrapper{
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  /* border: 2px solid green; */
+}
+.grid-7-text-wrapper h1{
+  font-size: 30px;
+}
+
+.footer ul{
+
+  margin-top: 10px;
+}
+
+.footer ul li a{
+
+padding: 0px 8px;
+font-size: 14px;
+
+
+}
+
+}
