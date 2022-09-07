@@ -1,5 +1,6 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
+import SocialButton from "components/SocialButton";
 
 function LandingPage() {
   return (
@@ -26,8 +27,8 @@ function LandingPage() {
               <h1>Get out there with friends</h1>
               <p className="text-slate-500">Join, create and share events</p>
             </div>
-            <div className="button-wrapper">
-              <button className="btn-header-download">Download</button>
+            <div className="flex center-styl mt-6">
+            <SocialButton/>
             </div>
           </Grid>
           <Grid item xs={8}></Grid>
@@ -54,14 +55,18 @@ function LandingPage() {
               Explore events and show your friends where you’d like to go. Join
               events or create your own, invite others and use the chat to plan.
             </p>
-            <button className="btn-download-2 btn-download-common">Download</button>
+            
+            <div className="flex center-styl mt-6">
+            <SocialButton/>
+            
+            </div>
           </div>
         </Grid>
       </Grid>
 
 {/* Mobile Image Grid-4 with text on right  */}
       
-      <Grid className="mobile-grid-4" container spacing={2}>
+      <Grid className="mobile-grid-4" container spacing={10}>
         <Grid className="mobile-sub-grid" item xs={12} sm={12} md={5} lg={5}>
           <div className="mobile-image-wrapper">
           <img src="https://img.freepik.com/free-psd/smartphone-mockup-front-view_1332-2924.jpg?w=360&t=st=1662464600~exp=1662465200~hmac=117de3d8808671affc3b9133379b8f12f4dd1002ec47f4e9a3face08979c4d6b" alt="" />
@@ -72,7 +77,12 @@ function LandingPage() {
           <h1>Join your friends</h1>
           <p>
 See what your friends are up to and join them. The <br></br>BASH feed is designed to get you offline ASAP.</p>
-<button className="btn-download-common hide-button">Download</button>
+
+<div className="flex center-styl mt-6">
+            <SocialButton/>
+            
+            </div>
+
           </div>
           </Grid>
       </Grid>
@@ -87,7 +97,10 @@ See what your friends are up to and join them. The <br></br>BASH feed is designe
          that's coming up. The event chat makes sure you keep<br></br>
          all the information in one place.
          </p>
-<button className="btn-download-common hide-button">Download</button>
+         <div className="flex center-styl mt-6">
+            <SocialButton/>
+            
+            </div>
           </div>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={5}>
@@ -99,7 +112,7 @@ See what your friends are up to and join them. The <br></br>BASH feed is designe
 
             {/* Mobile Image Grid-6 with text on right */}
 
-      <Grid className="mobile-grid-6" container spacing={2}>
+      <Grid className="mobile-grid-6" container spacing={10}>
         <Grid className="mobile-sub-grid" item xs={12} sm={12} md={6} lg={5}>
           <div className="mobile-image-wrapper">
           <img src="https://img.freepik.com/free-psd/smartphone-mockup-front-view_1332-2924.jpg?w=360&t=st=1662464600~exp=1662465200~hmac=117de3d8808671affc3b9133379b8f12f4dd1002ec47f4e9a3face08979c4d6b" alt="" />
@@ -110,7 +123,10 @@ See what your friends are up to and join them. The <br></br>BASH feed is designe
           <h1>Include Everyone</h1>
           <p>
           Are not all your friends on BASH yet? No problem, they <br></br>can join your event via the link without creating an.<br></br></p>
-<button className="btn-download-common hide-button ">Download</button>
+          <div className="flex center-styl mt-6">
+            <SocialButton/>
+            
+            </div>
           </div>
           </Grid>
       </Grid>
@@ -124,7 +140,10 @@ See what your friends are up to and join them. The <br></br>BASH feed is designe
               <h1>Go for it</h1>
             </div>
             <div className="button-wrapper">
-              <button className="btn-download-common">Download</button>
+            <div className="flex center-styl mt-6">
+            <SocialButton/>
+            
+            </div>
             </div>
           </Grid>
           <Grid item xs={8}>

@@ -63,7 +63,7 @@ font-weight: bold;
   width: 40%;
   margin: auto;
   /* margin-top: 50px; */
-  /* border: 2px solid green; */
+  border: 2px solid green;
 }
 .text-wrapper h1{
   font-size: 50px;
@@ -71,7 +71,7 @@ font-weight: bold;
   text-align: center;
 }
 .text-wrapper p{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   text-align: center;
  
@@ -80,18 +80,7 @@ font-weight: bold;
 display: flex;
 justify-content: center;
 }
-.btn-header-download{
-  padding: 8px 10px;
-  background-color: #00A693;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 25px;
-  margin-top: 10px;
-}
-.btn-header-download:hover{
-  background-color: #01796C;
-}
+
 
 /* Grid 2 hero section image */
 
@@ -120,36 +109,18 @@ text-align: center;
 font-size: 32px;
 font-weight: bold;
 }
-.btn-download-2{
-  position: relative;
-  left: 86%;
-}
-
-/* Black download Button */
-.btn-download-common{
-  padding: 8px 10px;
-  background-color: #000000ba;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 25px;
-  margin-top: 5px;
-  z-index: 5;
- 
-}
-.btn-download-common:hover{
-  background-color: #00000081;
-}
- 
-
 /* Mobile Image Grid-4 with text on right  */
 
 .mobile-grid-4{
   background-color: #E0F2F0;
 }
+.mobile-sub-grid{
+border: 2px solid red;
+}
 .grid-4-text-wrapper{
   display: flex;
   align-items: center;
+  border: 2px solid black;
 }
 /* Common properteries  */
 .heading-text-wrapper h1{
@@ -168,6 +139,8 @@ font-size: 18px;
 .mobile-image-wrapper img{
   width: 300px;
   height: 500px;
+  border: 2px solid red;
+  z-index: 0;
 }
 
 
@@ -265,9 +238,7 @@ font-weight: bold;
   text-align: left;
   font-size: 28px;
   }
-  .btn-download-2{
-    left: 0%;
-  }
+
   .heading-text-wrapper h1{
     font-size: 35px;
    
@@ -276,20 +247,7 @@ font-weight: bold;
   font-size: 15px;
   
   }
-  .btn-download-common{
-    padding: 8px 10px;
-    background-color: #000000ba;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 1px;
-    border-radius: 25px;
-    margin-top: 5px;
-  
-   
-  }
-  .btn-download-common:hover{
-    background-color: #00000081;
-  }
+ 
   .mobile-image-wrapper{
     padding: 60px 0px;
     position: relative;
@@ -331,16 +289,7 @@ font-weight: bold;
     padding: 60px;
   
   }
-  .btn-download-common{
-    padding: 6px 8px;
-   font-size: 12px;
-   background-color: #000000ba;
-   color: white;
-   font-weight: bold;
-   letter-spacing: 1px;
-   border-radius: 25px;
-  
-  }
+
   .grid-3-wrapper p{
   text-align: left;
   font-size: 28px;
@@ -619,15 +568,4 @@ font-size: 14px;
 }
 
 
-}
-@media screen and (min-width: 0px) and (max-width: 319px) {
-  .btn-download-common{
-    padding: 6px 8px;
-   font-size: 12px;
-   background-color: #000000ba;
-   color: white;
-   font-weight: bold;
-   letter-spacing: 1px;
-   border-radius: 25px;
-  }
 }
