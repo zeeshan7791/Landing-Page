@@ -316,6 +316,16 @@ font-weight: bold;
     padding: 60px;
   
   }
+  .btn-download-common{
+    padding: 6px 8px;
+   font-size: 12px;
+   background-color: #000000ba;
+   color: white;
+   font-weight: bold;
+   letter-spacing: 1px;
+   border-radius: 25px;
+  
+  }
   .grid-3-wrapper p{
   text-align: left;
   font-size: 28px;
