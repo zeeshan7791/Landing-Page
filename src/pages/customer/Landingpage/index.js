@@ -54,7 +54,7 @@ function LandingPage() {
               Explore events and show your friends where you’d like to go. Join
               events or create your own, invite others and use the chat to plan.
             </p>
-            <button className="btn-download-2 btn-download-common">download</button>
+            <button className="btn-download-2 btn-download-common">Download</button>
           </div>
         </Grid>
       </Grid>
@@ -110,7 +110,7 @@ See what your friends are up to and join them. The <br></br>BASH feed is designe
           <h1>Include Everyone</h1>
           <p>
           Are not all your friends on BASH yet? No problem, they <br></br>can join your event via the link without creating an.<br></br></p>
-<button className="btn-download-common hide-button ">Download app</button>
+<button className="btn-download-common hide-button ">Download</button>
           </div>
           </Grid>
       </Grid>
