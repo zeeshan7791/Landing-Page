@@ -63,7 +63,7 @@ font-weight: bold;
   width: 40%;
   margin: auto;
   /* margin-top: 50px; */
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .text-wrapper h1{
   font-size: 50px;
@@ -115,12 +115,12 @@ font-weight: bold;
   background-color: #E0F2F0;
 }
 .mobile-sub-grid{
-border: 2px solid red;
+/* border: 2px solid red; */
 }
 .grid-4-text-wrapper{
   display: flex;
   align-items: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 /* Common properteries  */
 .heading-text-wrapper h1{
@@ -139,7 +139,7 @@ font-size: 18px;
 .mobile-image-wrapper img{
   width: 300px;
   height: 500px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   z-index: 0;
 }
 
